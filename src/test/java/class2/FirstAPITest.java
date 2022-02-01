@@ -12,6 +12,8 @@ public class FirstAPITest {
 		Response response = RestAssured.get("https://reqres.in/api/users/2");
 		String responseVal= response.asString();
 		System.out.println(responseVal);
+		System.out.println(responseVal);
+		System.out.println(responseVal);
 		
 	}
 
